@@ -6,13 +6,17 @@ output: github_document
 
 > Today I Learned
 
-collect what I learned 
+collect what I learned 라고 썼지만,
+사실 일기장이다. 
 
 ---
 
 ### Categories
 
 * [app_planing](#app_planning)
+* [programming_common](#programming_common)
+* [programming_dataStructure](#programming_dataStructure)
+* [cooking](#cooking)
 
 ---
 
@@ -21,3 +25,26 @@ collect what I learned
 - [How-to-make-wireframe-faster](app_planning/How-to-make-wireframe-faster.md)
 - [project-process](app_planning/project-process.md)
 
+---
+
+### programming_common
+
+- [thinkings](programming/common/thinkings.md)
+- [key_words](programming/common/key_words.md)
+
+---
+
+### programming_dataStructure
+
+- [concept](programming/dataStructure/concept.md)
+
+---
+
+### programming_designPattern
+
+- [concept](programming/designPattern/concept.md)
+
+---
+
+### cooking
+- [key_words](cook/key_words.md)

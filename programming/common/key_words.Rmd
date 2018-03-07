@@ -1,0 +1,27 @@
+---
+output: github_document
+---
+
+### 아직 잘 모르지만 언뜻 듣기에 알면 좋아보이는 것
+
+- TDD [이거 짜는 시간이 비 효율적이라는 얘기도 있음](http://www.gamecodi.com/board/zboard-id-GAMECODI_Talkdev-no-4340-z-17.htm)
+- 유닛 테스트 
+- 리액트. FrontEnd
+- 앵귤러
+- 유저 세션을 공유하고 구분하는 방법의 개념
+- UML (클래스 다이어그램?)
+- 디자인 패턴
+- TCP/IP
+- HTTP protocol
+
+
+### 차후 필요한 것
+
+- 파이썬
+- 텐서플로우
+- 맵 리듀스 방식의 이해 및 하둡 사용
+- 자료구조
+- 알고리즘
+- 디버깅 툴 사용법
+
+
