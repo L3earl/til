@@ -1,0 +1,8 @@
+---
+output: html_notebook
+---
+
+# 관련 알고리즘
+- 장바구니 분석 (Market basket analysis)
+- 연관 규칙분석 (a priori algorithm) 
+
