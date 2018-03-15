@@ -16,6 +16,7 @@ collect what I learned 라고 썼지만,
 * [app_planing](#app_planning)
 * [programming_common](#programming_common)
 * [programming_dataStructure](#programming_dataStructure)
+* [data_science_common](#data_science_common)
 * [cooking](#cooking)
 
 ---
@@ -43,6 +44,58 @@ collect what I learned 라고 썼지만,
 ### programming_designPattern
 
 - [concept](programming/designPattern/concept.md)
+
+---
+
+### data_science_common
+
+- [key_words](data_science/common/key_words.md)
+- [courses](data_science/common/courses.md)
+
+---
+
+### data_science_total
+
+- [README](data_science/total/README.md)
+- [analyst process](data_science/total/analyst_process.md)
+- [인공지능 개요](data_science/total/artificial_intelligence.md)
+- [강화학습 개요](data_science/total/reinforcement_learning.md)
+- [확률 개요](data_science/total/probabillity.md)
+- [다변량분석](data_science/multivariable_analysis.nb.html)
+- [지도 학습](data_science/total/supervised_learning.md)
+- [비지도 학습](data_science/total/unsupervised_learning.md)
+- [인공신경망](data_science/total/nural_network.md)
+- [의사결정 트리](data_science/total/decision_tree.md)
+- [나이브 베이지안 classifier](data_science/total/naive_baysian_classifier.md)
+- [선형 회귀](data_science/total/linear_regression.md)
+- [지수 회귀](data_science/total/logistic_regression.md)
+- [SVM](data_science/total/support_vector_machine.md)
+- [앙상블](data_science/total/ensemble.md)
+- [군집화](data_science/total/clustering.md)
+- [주성분 분석](data_science/total/principal_component_analysis.md)
+- [특이값 분해](data_science/total/singular_value_decomposition.md)
+- [독립 선분 분석](data_science/total/independent_component_analysis.md)
+- [연관 규칙 분석](data_science/total/a_priori_algorithm.md)
+- [K-means 군집화](data_science/total/k_means_clustering.md)
+- [계층적 군집화](data_science/total/hierarchical_clustering.md)
+
+
+# 추가 할 것
+- expectation maximization (EM 알고리즘)
+여러 변수의 최적값을 찾을 때, 
+특정 변수(A)에 임의의 값을 넣고 고정한 다음 다른 변수(B)의 최적값을 찾음  
+그 후, 최적값을 찾은 변수(B)를 고정하고, 다른 변수(A)의 최적값을 찾음
+이 것을 반복하다 보면, 변수들의 변화가 없어지는 값이 나옴  
+그게 변수들의 최적화다! 
+
+- 정규화
+거리 계산을 하는 알고리즘에서 단위가 다르면 영향력의 차이가 발생하므로, 각 단위를 정규화 해야 한다
+
+- 거리 계산 방식들 정리해 놓기
+단순 거리 : 유클리드 거리  
+벡터 고려 : 
+벡터와 각도(방향) 고려 : 
+두 벡터 사이의 cos 유사도 : 
 
 ---
 

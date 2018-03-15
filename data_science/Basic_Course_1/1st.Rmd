@@ -1,0 +1,110 @@
+---
+output: github_document
+---
+
+# 교육 목적
+초심자들을 위한 빅데이터에 대한 이해도 상승
+
+# 교육 내용
+이론 & 알고리즘 & R을 이용한 실습
+머신 러닝 알고리즘 위주
+
+# Intro
+- 데이터 사이언스 역량 구분 
+Descriptive analysis = 데이터의 특징을 묘사, 통계적 기법 사용, summarize, 과거와 현재  
+Predictive analysis = 미래 예측, 머신러닝 알고리즘 사용  
+Prescriptive analysis = 최적화 이론, Optimization 사용  
+
+목표로 가는 길은 여러개가 있다.  
+어떤 것을 선택할 것인지는 최적화를 통해 판단
+
+- 데이터 분석 process
+7 8 page 확인해보기
+
+# 데이터 마이닝 툴
+- SAS : 일반적으로는 기존의 플랫폼하고 연동하기 힘듬
+- WEKA : 꽁짜고, 쓰기 편하지만 강력하진 않음. SAS/ MATLAB 에 익숙해지기 전에 툴에 대한 이해를 하기에 좋음
+- R
+- Python
+- MATLAB
+
+# 연습용 데이터 셋 구하는 곳
+- [UCI KDD archive](http://archive.ics.uci.edu/ml) : 설명이 상세하고, 다른 사람 코드가 오픈되어 있음
+- [KDnuggets datasets](http://www.kDnuggets.com/datasets/index.html)
+- [Wikipedia: Database downlad]
+
+
+
+# 데이터 기반 의사결정
+
+# 데이터 마이닝 개요
+- 뜻 : data에서 의미가 있는 정보를 찾아내는 것
+17 페이지 첨부
+
+# 학습 목적
+- 분류 : 지도학습, y^이 명목형 변수가 나올때
+- 군집화 : 비지도학습
+- 연관 규칙 : 비지도학습
+- 회귀분석 : y^이 연속형 변수가 나올때, 경우의 수가 많아서 회귀로 처리
+- 이상치 탐지 : Anomaly Detaection, 일종의 분류문제. 누가 정상? 비정상? classification과 다른 부분은. 이상치 데이터가 매우 소량이라 학습하기가 힘듬
+
+# 데이터의 형태에 따른 구부
+- 정형 데이터 : structured Data
+- 비정형 데이터 (Un-), 이미지/음성/텍스트로 숫자가 아닌 형태의 정보가 구조화되지 않은 형태로 존재
+
+
+# KDD (knowlege Discovery in Database) 과정
+
+
+
+# 머신 러닝 개요
+## AI 
+- inference(추론) 능력 부여 (새로운 환경에서 적절한 판단을 생각해내는 능력)
+- 초기 : 룰 base로 적용, 오델로나 체스에서, 전문가의 판단을 가져와서 가장 optimize한 상황을 적용. 단점으론, 전문가의 실력을 넘을 수 없고/ bias가 있음. 즉, 전문가가 경험하지 못한 상황은 판단할 수 없음 (KBS, ES, CBR이라 함)
+- 중기 : 뉴럴 네트웤 생김, 머신 러닝의 시작, ANN (ARTIFICIAL NURAL NETWORK), 컴퓨터가 데이터를 기반으로 학슴 (TPS)
+- 지금 : DNN (딮러닝, Deep Nural network), feature을 뽑아내는 전처리 안하고/ 다 넣어서 사용. 속도도 빨라짐
+
+
+# 빅 데이터 개요
+
+# 데이터 마이닝/ 머신 러닝 알고리즘
+
+# 사례
+- 기저귀와 맥주 : 멀리 떨어트려 놓아서, 이동하며 충동구매를 일어나게 유도할 수도 있음
+
+
+# 인공지능의 구분
+약인공지능 : Narrow AI
+강인공지능 : General AI
+초인공지능 : Super AI
+
+# local minima에서 벗어나는 방법
+Y^값이 낮아지는 방향이 아닌 다른 방향으로 일부로 옮겨서, bias된 데이터에서 벋어나게 함
+Reinforcement learning에서 사용 - 스스로 학습할 수 있는 데이터 생성
+
+# 딮 러닝
+feature를 뽑아내는 과정이 합쳐저 있음
+
+# 모델 업데이트와 학습의 최종 목적에 따른 구분
+- static : 한번에. 자주 쓰는 기법. 데이터가 업데이트 되면 매번 분석 다시해야 함
+- Incremental : 부분적으로..
+50page 참고
+
+# 자주 쓰는 알고리즘
+- 인공신경망 : 어렵고 오래 걸림
+- 의사결정 트리 : 베이스로 사용. 사용하기도 이해하기도 쉬움. 이거 먼저 하고, 퍼포먼스 올리기 위해 다른 기법들을 섞음
+- 나이브 베이지안 classifier : 이미 존재하는 사후 확률을 기반으로 결정, 베이지안 분류 종류에서 가장 쉬움
+- 선형 회귀
+- logistic 회귀
+- SVM : Support Vector Machine
+- 앙상블 : 
+- 군집화
+- Principal Componet Anaysis (PCA) : 전처리에서 feature selection하는 방법, 가장 많이 사용
+- SVD : singular Value Decomposition : 전처리에서 feature selection하는 방법
+- Indeoendent Componet Anaysis : 
+
+# tip
+supervise learning이 un- 보다 효과적임
+비정형 데이터를 잘 분석하려면, 특질점(feature)을 뽑아내야 한다. 그냥 분석하면 너무 데이터가 많아서 힘듬
+
+
